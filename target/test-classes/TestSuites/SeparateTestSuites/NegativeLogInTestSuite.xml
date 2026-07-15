@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="NegativeLogInTestSuite" verbose="1" parallel="methods" thread-count="5">
+	<test name="NegativeLogInTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+        <!--<parameter name="chromeProfile" value="Profile 3"></parameter>-->
+		<classes>
+			<class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
+			</class>
+		</classes>
+	</test>
+
+   <test name="NegativeLogInTest-Edge">
+        <parameter name="browser" value="edge"></parameter>
+        <!--<parameter name="chromeProfile" value="Profile 3"></parameter>-->
+        <classes>
+            <class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
+            </class>
+        </classes>
+    </test>
+
+    <test name="NegativeLogInTest-FF">
+        <parameter name="browser" value="firefox"></parameter>
+        <!--<parameter name="chromeProfile" value="Profile 3"></parameter>-->
+        <classes>
+            <class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
+            </class>
+        </classes>
+    </test>
+</suite>

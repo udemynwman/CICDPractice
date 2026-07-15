@@ -1,0 +1,5 @@
+[1348:34096:0706/210256.959:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:239] No machine level policy manager exists.
+[1348:34096:0706/210258.706:INFO:CONSOLE:0] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://the-internet.herokuapp.com/login (0)
+[1348:34096:0706/210259.504:INFO:CONSOLE:0] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://the-internet.herokuapp.com/login (0)
+[36392:37480:0706/210259.809:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:179] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:229 to client_task_runner_.
+[36392:37480:0706/210259.810:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:179] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:229 to client_task_runner_.
