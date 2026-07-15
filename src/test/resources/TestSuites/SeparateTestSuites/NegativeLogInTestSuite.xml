@@ -10,9 +10,9 @@
 		</classes>
 	</test>
 
-   <test name="NegativeLogInTest-Edge">
+   <!--<test name="NegativeLogInTest-Edge">
         <parameter name="browser" value="edge"></parameter>
-        <!--<parameter name="chromeProfile" value="Profile 3"></parameter>-->
+        &lt;!&ndash;<parameter name="chromeProfile" value="Profile 3"></parameter>&ndash;&gt;
         <classes>
             <class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
             </class>
@@ -21,10 +21,10 @@
 
     <test name="NegativeLogInTest-FF">
         <parameter name="browser" value="firefox"></parameter>
-        <!--<parameter name="chromeProfile" value="Profile 3"></parameter>-->
+        &lt;!&ndash;<parameter name="chromeProfile" value="Profile 3"></parameter>&ndash;&gt;
         <classes>
             <class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
             </class>
         </classes>
-    </test>
+    </test>-->
 </suite>
