@@ -12,7 +12,7 @@ import java.util.*;
 
 public class CsvDataProviders {
 
-	@DataProvider(name = "csvReader", parallel = true)
+	@DataProvider(name = "csvReader")
 	public static Iterator<Object[]> csvReader(Method method) {
 		List<Object[]> list = new ArrayList<Object[]>();
 		String pathname = "src" + File.separator + "test" + File.separator + "resources" + File.separator

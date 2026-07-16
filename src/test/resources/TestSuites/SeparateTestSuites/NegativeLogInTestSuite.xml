@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="NegativeLogInTestSuite" verbose="1" thread-count="5">
+<suite name="NegativeLogInTestSuite" verbose="1" parallel="none" thread-count="1">
 	<test name="NegativeLogInTest-CH">
 		<parameter name="browser" value="chrome"></parameter>
         <!--<parameter name="chromeProfile" value="Profile 3"></parameter>-->
