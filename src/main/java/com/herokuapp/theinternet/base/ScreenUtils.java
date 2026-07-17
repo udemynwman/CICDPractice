@@ -1,10 +1,12 @@
 package com.herokuapp.theinternet.base;
 
+import io.qameta.allure.Allure;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -29,6 +31,10 @@ public class ScreenUtils {
 
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         File destFile = new File(screenshotPath);
+
+        //Capture screenshot as bytes for Allure
+        byte[] screenshotBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(screenshotBytes));
 
         try {
             Files.createDirectories(destFile.getParentFile().toPath());

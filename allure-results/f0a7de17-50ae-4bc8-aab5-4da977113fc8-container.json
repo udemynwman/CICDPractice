@@ -1,0 +1,1 @@
+{"uuid":"f0a7de17-50ae-4bc8-aab5-4da977113fc8","name":"negativeLogInTest","children":["6ef5d608-ecdb-4b6a-aeb0-5309f4bf1a67","7b20a7a9-966b-4583-905d-40b671ad4823"],"befores":[{"name":"csvReader","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1784249287805,"stop":1784249287817}],"afters":[],"start":1784249287800,"stop":1784249303651}
